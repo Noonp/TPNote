@@ -25,6 +25,9 @@ public class Groupe {
 	}
 	
 	
+	public void setSujet(Sujet sujet) {
+		this.sujet = sujet;
+	}
 	public ArrayList<Sujet> getVoeux() {
 		return voeux;
 	}
@@ -42,7 +45,7 @@ public class Groupe {
 			this.etudiants.add(pers);
 		}
 		else {
-			System.out.println("Max d'étudiant atteint");
+			System.out.println("Max d'ï¿½tudiant atteint");
 		}
 	}
 	public ArrayList<Etudiant> getEtudiants() {
